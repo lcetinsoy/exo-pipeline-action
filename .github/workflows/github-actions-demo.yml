@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "bonjour voici ma premiere action qui affiche un message"
+      - run: ls -la
+      - run: python app.py
