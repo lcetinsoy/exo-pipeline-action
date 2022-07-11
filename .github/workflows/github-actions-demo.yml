@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo "bonjour voici ma premiere action qui affiche un message"
       - run: ls -la
-      - run: python app.py
+      - run: python test_lib.py
